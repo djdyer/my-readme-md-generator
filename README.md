@@ -1,13 +1,13 @@
-# my-readme-md-generator
+<span style="color:purple"># my-readme-md-generator</span>
 
 <br>
 
 ## Description
 
-<b>Purpose</b>: To create a comprehensive README.md file, per user inputs.
-<b>Motivation</b>: Leaves more time to focus on writing code.
-<b>Problem Solved</b>: Saves time and eliminates guesswork in README.md composition.
-<b>What was learned</b>: How to create and run Node applications.
+<b>Purpose</b>: To create a comprehensive README.md file, per user inputs.\n
+<b>Motivation</b>: Leaves more time to focus on writing code.\n
+<b>Problem Solved</b>: Saves time and eliminates guesswork in README.md composition.\n
+<b>What was learned</b>: How to create and run Node applications.\n
 
 <br>
 
@@ -70,11 +70,11 @@ Inputs added to corresponding section titles for README.md.
 
 When choosing license from list of options, badge is added to top of README.md, notice added to license section explaining coverage.
 
-Entering GitHub user name adds profile link to Questions section, with instructions for how to contact.
+Entering GitHub user name adds profile link to questions section, with instructions for how to contact.
 
-Entering email address adds to Questions section, with additional contact instructions.
+Entering email address adds to questions section, with additional contact instructions.
 
-When clicking links in Table of Contents, user is directed to corresponding section.
+When clicking links in table of contents, user is directed to corresponding section.
 
 ```
 
@@ -86,6 +86,8 @@ When clicking links in Table of Contents, user is directed to corresponding sect
 
 ## Collaboration
 
-Credit collaborators by linking GitHub profiles.
-Reporting issues: Contact @djdyer to report bugs.
+Credit collaborators by linking GitHub profiles.\n
+Reporting issues: Contact @djdyer to report bugs.\n
 Contributions: Clone branch, submit pull request after completing improvements.
+
+<br>
