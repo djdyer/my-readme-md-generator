@@ -1,13 +1,13 @@
-<span style="color:purple"># my-readme-md-generator</span>
+# my-readme-md-generator
 
 <br>
 
 ## Description
 
-<b>Purpose</b>: To create a comprehensive README.md file, per user inputs.\n
-<b>Motivation</b>: Leaves more time to focus on writing code.\n
-<b>Problem Solved</b>: Saves time and eliminates guesswork in README.md composition.\n
-<b>What was learned</b>: How to create and run Node applications.\n
+<b>Purpose</b>: To create a comprehensive README.md file, per user inputs.  
+<b>Motivation</b>: Leaves more time to focus on writing code.  
+<b>Problem Solved</b>: Saves time and eliminates guesswork in README.md composition.  
+<b>What was learned</b>: How to create and run Node applications.
 
 <br>
 
@@ -86,8 +86,8 @@ When clicking links in table of contents, user is directed to corresponding sect
 
 ## Collaboration
 
-Credit collaborators by linking GitHub profiles.\n
-Reporting issues: Contact @djdyer to report bugs.\n
+Credit collaborators by linking GitHub profiles.  
+Reporting issues: Contact @djdyer to report bugs.  
 Contributions: Clone branch, submit pull request after completing improvements.
 
 <br>
