@@ -64,15 +64,26 @@ https://choosealicense.com/community/
 Command line application accepts user input.
 
 User prompted for information about application repository:
-title, description, table of contents, installation instructions, usage information, license, contributing, tests, questions.
+- title
+- description
+- table of contents
+- installation instructions
+- usage information
+- license
+- contributing
+- tests
+- questions
 
 Inputs added to corresponding section titles for README.md.
 
-When choosing license from list of options, badge is added to top of README.md, notice added to license section explaining coverage.
+When choosing license from list of options, badge is added to top of README.md,
+notice added to license section explaining coverage.
 
-Entering GitHub user name adds profile link to questions section, with instructions for how to contact.
+Entering GitHub user name adds profile link to questions section,
+with instructions for how to contact.
 
-Entering email address adds to questions section, with additional contact instructions.
+Entering email address adds to questions section, with additional
+contact instructions.
 
 When clicking links in table of contents, user is directed to corresponding section.
 
@@ -87,7 +98,7 @@ When clicking links in table of contents, user is directed to corresponding sect
 ## Collaboration
 
 Credit collaborators by linking GitHub profiles.  
-Reporting issues: Contact @djdyer to report bugs.  
-Contributions: Clone branch, submit pull request after completing improvements.
+<b>Reporting issues</b>: Contact @djdyer to report bugs.  
+<b>Contributions</b>: Clone branch, submit pull request after completing improvements.
 
 <br>
