@@ -40,7 +40,7 @@ App is invoked by first running 'npm install', then typing 'node index' in the c
 
 ## Usage
 
-This is a command line application utilizing the Inquirer package.
+This is a command line application utilizing the Inquirer package.  
 [Inquirer package](https://www.npmjs.com/package/inquirer)
 
 <br>
