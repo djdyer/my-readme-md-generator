@@ -47,8 +47,8 @@ This is a command line application utilizing the Inquirer package.
 
 ## License
 
-ISC License
-Copyright(c)[2021] [David Dyer]
+ISC License  
+Copyright (c) [2021] [David Dyer]  
 [license](./license.txt)
 
 <br>
