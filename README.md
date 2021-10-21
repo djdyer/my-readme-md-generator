@@ -1,6 +1,14 @@
 # my-readme-md-generator
 
-<br>
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Screenshots/Demo](#screenshots/demo)
+- [Criteria](#acceptancecriteria)
+- [Collaboration](#collaboration)
 
 ## Description
 
@@ -9,20 +17,11 @@
 3. **Problem solved**: Saves time and eliminates guesswork in README.md composition.
 4. **What I learned**: How to create and run Node applications.
 
-<br>
+## Installation
 
-## Repo contents
+App is invoked by first running 'npm install', then typing 'node index' in the command line.
 
-<li>README.md</li>
-<li>index.js</li>
-<li>generateMarkdown.js</li>
-<li>package.json</li>
-<li>gitignore</li>
-<li>assets</li>
-
-<br>
-
-## User Story
+## Usage
 
 ```
 As a developer
@@ -30,35 +29,16 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project.
 ```
 
-<br>
-
-## Installation
-
-App is invoked by first running 'npm install', then typing 'node index' in the command line.
-
-<br>
-
-## Usage
-
-This is a command line application utilizing the Inquirer package.  
-[Inquirer package](https://www.npmjs.com/package/inquirer)
-
-<br>
-
 ## License
 
 ISC License  
 Copyright (c) [2021] [David Dyer]  
 [license](./license.txt)
 
-<br>
-
 ## Screenshots/Demo
 
 - Link to Screencastify demo video demonstrating functionality.
 - Sample README.md
-
-<br>
 
 ## Acceptance Criteria
 
@@ -77,9 +57,6 @@ User prompted for information about application repository:
 
 Inputs added to corresponding section titles for README.md.
 
-![ISC](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-find correct badge!!!!!
-
 When choosing license from list of options, badge is added to top of README.md,
 notice added to license section explaining coverage.
 
@@ -93,16 +70,8 @@ When clicking links in table of contents, user is directed to corresponding sect
 
 ```
 
-<br>
-
-## Deployed URL
-
-<br>
-
 ## Collaboration
 
 Credit collaborators by linking GitHub profiles.  
 **Reporting issues**: Contact @djdyer to report bugs.  
 **Contributions**: Clone branch, submit pull request after completing improvements.
-
-<br>
