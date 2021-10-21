@@ -6,8 +6,8 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Screenshots/Demo](#screenshots/demo)
-- [Criteria](#acceptancecriteria)
+- [Screenshots/Demo](#screenshots-demo)
+- [Criteria](#acceptance-criteria)
 - [Collaboration](#collaboration)
 
 ## Description
