@@ -4,10 +4,10 @@
 
 ## Description
 
-<b>Purpose</b>: To create a comprehensive README.md file, per user inputs.  
-<b>Motivation</b>: Leaves more time to focus on writing code.  
-<b>Problem Solved</b>: Saves time and eliminates guesswork in README.md composition.  
-<b>What was learned</b>: How to create and run Node applications.
+1. **Purpose**: To create a comprehensive README.md file, per user inputs.
+2. **Motivation**: Leaves more time to focus on writing code.
+3. **Problem solved**: Saves time and eliminates guesswork in README.md composition.
+4. **What I learned**: How to create and run Node applications.
 
 <br>
 
@@ -27,14 +27,14 @@
 ```
 As a developer
 I WANT a README generator
-SO THAT I can quickly create a professional README for a new projec
+SO THAT I can quickly create a professional README for a new project.
 ```
 
 <br>
 
 ## Installation
 
-App is invoked by typing 'node index' in the command line.
+App is invoked by first running 'npm install', then typing 'node index' in the command line.
 
 <br>
 
@@ -47,7 +47,9 @@ This is a command line application utilizing the Inquirer package.
 
 ## License
 
-https://choosealicense.com/community/
+ISC License
+Copyright(c)[2021] [David Dyer]
+[license](./license.txt)
 
 <br>
 
@@ -66,7 +68,6 @@ Command line application accepts user input.
 User prompted for information about application repository:
 - title
 - description
-- table of contents
 - installation instructions
 - usage information
 - license
@@ -75,6 +76,9 @@ User prompted for information about application repository:
 - questions
 
 Inputs added to corresponding section titles for README.md.
+
+![ISC](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+find correct badge!!!!!
 
 When choosing license from list of options, badge is added to top of README.md,
 notice added to license section explaining coverage.
@@ -98,7 +102,7 @@ When clicking links in table of contents, user is directed to corresponding sect
 ## Collaboration
 
 Credit collaborators by linking GitHub profiles.  
-<b>Reporting issues</b>: Contact @djdyer to report bugs.  
-<b>Contributions</b>: Clone branch, submit pull request after completing improvements.
+**Reporting issues**: Contact @djdyer to report bugs.  
+**Contributions**: Clone branch, submit pull request after completing improvements.
 
 <br>
