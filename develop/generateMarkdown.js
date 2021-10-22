@@ -1,5 +1,3 @@
-const index = require("./index.js");
-
 // Returns a license badge based on which license is passed in
 function renderLicenseBadge() {
   // if (data.choices[0]) {
@@ -71,12 +69,4 @@ function generateMarkdown(data) {
 `;
 }
 
-generateMarkdown();
-renderLicenseBadge();
-renderLicenseLink();
-renderLicenseSection();
-
 module.exports = generateMarkdown;
-module.exports = renderLicenseBadge;
-module.exports = renderLicenseLink;
-module.exports = renderLicenseSection;
