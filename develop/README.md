@@ -1,6 +1,6 @@
-# blah blah
+# blah
   
-  undefined
+  ![ISC](/assets/isc.svg)
 
   ## Table of Contents
   - [Description](#description)
@@ -12,26 +12,26 @@
   - [Questions](#questions)
 
   ## Description
-  blah blah
+  blah
 
   ## Installation
-  blah blah
+  blah
   
   ## Usage
-  blah blah
+  blah
   
   ## License
 
 
   ## Contribution
   Please follow these guidelines to offer contributions:
-  blah blah
+  blah
 
   ## Tests
   I have written the following test for this application:
-  blah blah
+  blah
 
   ## Questions
   If issues arise, please reach me at the contact information below:
-  blah blah
-  blah blah
+  blah
+  blah

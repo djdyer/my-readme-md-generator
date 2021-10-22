@@ -1,16 +1,15 @@
 // Returns a license badge based on which license is passed in
-function renderLicenseBadge() {
-  // if (data.choices[0]) {
-  //   console.log(data.choices[0]);
-  //   const apache = "url to image";
-  //     return badge = "https://img.shields.io/badge/Apache-License-yellow";
-  // } else if (data.license === "GNU") {
-  //     return badge = "https://img.shields.io/badge/GNU-License-brightgreen";
-  // } else if (data.license === "MIT") {
-  //     return badge = "https://img.shields.io/badge/MIT-License-red";
-  // } else {
-  //     return badge = "https://img.shields.io/badge/ISC-License-blue";
-  // }
+function renderLicenseBadge(license) {
+  console.log(license);
+  if (license === "Apache") {
+    return "![Apache](/assets/apache.svg)";
+  } else if (license === "GNU") {
+    return "![GNU](/assets/gun.svg)";
+  } else if (license === "MIT") {
+    return "![MIT](/assets/mit.svg)";
+  } else {
+    return "![ISC](/assets/isc.svg)";
+  }
 }
 
 // Returns the license link
