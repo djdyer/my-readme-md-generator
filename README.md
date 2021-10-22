@@ -35,7 +35,7 @@ ISC License
 Copyright (c) [2021] [David Dyer]  
 [license](./license.txt)
 
-## Screenshots/Demo
+## Screenshots Demo
 
 - Link to Screencastify demo video demonstrating functionality.
 - Sample README.md

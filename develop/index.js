@@ -65,8 +65,11 @@ function init() {
   inquirer.prompt(questionsArr).then((answers) => {
     console.log(answers);
     const readMe = generateMarkdown(answers);
+    // renderLicenseBadge(answers);
+    // renderLicenseLink(answers);
+    // renderLicenseSection(answers);
     console.log(readMe);
-    fs.writeFile("REAME.md", readMe, function (err) {
+    fs.writeFile("README.md", readMe, function (err) {
       if (err) {
         console.log(err);
       }
@@ -76,3 +79,5 @@ function init() {
 
 // Call to initialize app
 init();
+
+module.exports = init;
