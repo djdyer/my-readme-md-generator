@@ -1,4 +1,4 @@
-# blah
+# yada yada
   
   ![ISC](/assets/isc.svg)
 
@@ -12,26 +12,26 @@
   - [Questions](#questions)
 
   ## Description
-  blah
+  yada yada
 
   ## Installation
-  blah
+  yada yada
   
   ## Usage
-  blah
+  yada yada
   
   ## License
 
 
   ## Contribution
   Please follow these guidelines to offer contributions:
-  blah
+  yada yada
 
   ## Tests
   I have written the following test for this application:
-  blah
+  yada yada
 
   ## Questions
   If issues arise, please reach me at the contact information below:
-  blah
-  blah
+  yada yada
+  yada yada

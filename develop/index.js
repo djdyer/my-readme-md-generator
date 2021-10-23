@@ -2,14 +2,14 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./generateMarkdown");
+const markdownFunctions = require("./generateMarkdown");
 
 // Array of questions for user input
 
 const questionsArr = [
   {
     type: "input",
-    message: "What is the name of your project?",
+    message: "What is the name of your project? (Capslock suggested)",
     name: "title",
   },
   {
@@ -64,8 +64,8 @@ const questionsArr = [
 function init() {
   inquirer.prompt(questionsArr).then((answers) => {
     console.log(answers);
-    const readMe = generateMarkdown(answers);
-    // renderLicenseBadge(answers);
+    const readMe = markdownFunctions.generateMarkdown(answers);
+    markdownFunctions.renderLicenseBadge(answers.license);
     // renderLicenseLink(answers);
     // renderLicenseSection(answers);
     console.log(readMe);

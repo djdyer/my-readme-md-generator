@@ -1,6 +1,6 @@
 // Returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
-  console.log(license);
+  console.log(3, license);
   if (license === "Apache") {
     return "![Apache](/assets/apache.svg)";
   } else if (license === "GNU") {
@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 }
 
 // Returns the license link
-function renderLicenseLink() {
+function renderLicenseLink(license) {
   // const licenseLink = "https:";
   // const licenseApache = "https://choosealicense.com/licenses/apache-2.0";
   // const licenseGNU = "https://choosealicense.com/licenses/gpl-3.0";
@@ -22,13 +22,13 @@ function renderLicenseLink() {
 }
 
 // Returns the license section of README
-function renderLicenseSection() {}
+function renderLicenseSection(license) {}
 
 // Generates markdown for README
-function generateMarkdown(data) {
-  console.log(data);
-  const badge = renderLicenseBadge();
-  return `# ${data.title}
+function generateMarkdown(answers) {
+  console.log(answers);
+  const badge = renderLicenseBadge(answers.license);
+  return `# ${answers.title}
   
   ${badge}
 
@@ -42,30 +42,35 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Description
-  ${data.description}
+  ${answers.description}
 
   ## Installation
-  ${data.installation}
+  ${answers.installation}
   
   ## Usage
-  ${data.usage}
+  ${answers.usage}
   
   ## License
 
 
   ## Contribution
   Please follow these guidelines to offer contributions:
-  ${data.contribution}
+  ${answers.contribution}
 
   ## Tests
   I have written the following test for this application:
-  ${data.tests}
+  ${answers.tests}
 
   ## Questions
   If issues arise, please reach me at the contact information below:
-  ${data.github}
-  ${data.email}
+  ${answers.github}
+  ${answers.email}
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = {
+  renderLicenseBadge,
+  renderLicenseLink,
+  renderLicenseSection,
+  generateMarkdown,
+};
