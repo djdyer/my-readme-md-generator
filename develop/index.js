@@ -43,8 +43,7 @@ const questionsArr = [
   },
   {
     type: "input",
-    message:
-      "What guidelines might you have for possible contribution to your code?",
+    message: "What guidelines might you have for collaboration?",
     name: "contribution",
   },
   {
@@ -70,9 +69,6 @@ function init() {
   inquirer.prompt(questionsArr).then((answers) => {
     console.log(answers);
     const readMe = markdownFunctions.generateMarkdown(answers);
-    markdownFunctions.renderLicenseBadge(answers.license);
-    markdownFunctions.renderLicenseLink(answers.license);
-    markdownFunctions.renderLicenseSection(answers.license);
     fs.writeFile("README.md", readMe, function (err) {
       if (err) {
         console.log(err);

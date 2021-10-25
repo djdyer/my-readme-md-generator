@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
   } else if (license === "GNU") {
     return "![GNU](/assets/gun.svg)";
   } else if (license === "MIT") {
-    return "![MIT](/assets/mit.svg)";
+    return "![MIT](/assets/mit.svg";
   } else {
     return "![ISC](/assets/isc.svg)";
   }
@@ -14,35 +14,23 @@ function renderLicenseBadge(license) {
 // Returns the license link
 function renderLicenseLink(license) {
   console.log(license);
-  var licenseLink = "";
+  var licenseLink = "https://choosealicense.com/licenses";
   if (license === "Apache") {
-    licenseLink = "https://choosealicense.com/licenses/apache-2.0";
-    console.log(licenseLink);
-    return generateMarkdown(licenseLink);
+    licenseLink += "/apache-2.0";
   } else if (license === "GNU") {
-    licenseLink = "https://choosealicense.com/licenses/gpl-3.0";
-    console.log(licenseLink);
-    return generateMarkdown(licenseLink);
+    licenseLink += "/gpl-3.0";
   } else if (license === "MIT") {
-    licenseLink = "https://choosealicense.com/licenses/mit";
-    console.log(licenseLink);
-    return generateMarkdown(licenseLink);
+    licenseLink += "/mit";
   } else {
-    licenseLink = "https://choosealicense.com/licenses/isc";
-    console.log(licenseLink);
-    return generateMarkdown(licenseLink);
+    licenseLink += "/isc";
   }
+  return licenseLink;
 }
-
-// Returns the license section of README
-function renderLicenseSection() {}
 
 // Generates markdown for README
 function generateMarkdown(answers, licenseLink) {
   const badge = renderLicenseBadge(answers.license);
   return `# ${answers.title}
-  
-  ${badge}
 
   ## Table of Contents
   - [Description](#description)
@@ -65,10 +53,10 @@ function generateMarkdown(answers, licenseLink) {
   ## License
   ${answers.license}
   Copyright (c) ${answers.name} [${new Date().getFullYear()}]  
-  [License](${licenseLink})
+  [${badge}](${renderLicenseLink(answers.license)})
 
   ## Contribution
-  Please follow these guidelines to offer contribution:  
+  Please follow these guidelines for collaboration:  
   ${answers.contribution}
 
   ## Tests
@@ -85,6 +73,5 @@ function generateMarkdown(answers, licenseLink) {
 module.exports = {
   renderLicenseBadge,
   renderLicenseLink,
-  renderLicenseSection,
   generateMarkdown,
 };
