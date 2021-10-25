@@ -1,5 +1,7 @@
 # my-readme-md-generator
 
+<br />
+
 ## Table of Contents
 
 - [Description](#description)
@@ -41,15 +43,20 @@ SO THAT I can quickly create a professional README for a new project.
 
 ISC License  
 Copyright (c) David Dyer [2021]  
-[license](./license.txt)
+[![](assets/isc.svg)](./develop/license.txt)
 
 <br />
 
 ## Screenshots Demo
 
-- Link to Screencastify demo video demonstrating functionality.
-- Sample README.md
+<img src="assets/screenrecording.mov" width = "200">
 
+<br />
+
+<img src="assets/screenshot.png" width = "500">
+
+<br />
+<br />
 <br />
 
 ## Acceptance Criteria

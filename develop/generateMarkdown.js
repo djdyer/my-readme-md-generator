@@ -13,7 +13,6 @@ function renderLicenseBadge(license) {
 
 // Returns the license link
 function renderLicenseLink(license) {
-  console.log(license);
   var licenseLink = "https://choosealicense.com/licenses";
   if (license === "Apache") {
     licenseLink += "/apache-2.0";
