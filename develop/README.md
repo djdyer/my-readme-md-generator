@@ -1,4 +1,4 @@
-# yada yada
+# blah
   
   ![ISC](/assets/isc.svg)
 
@@ -12,26 +12,28 @@
   - [Questions](#questions)
 
   ## Description
-  yada yada
+  blah
 
   ## Installation
-  yada yada
+  blah
   
   ## Usage
-  yada yada
+  blah
   
   ## License
-
+  ISC
+  Copyright (c) blah [2021]  
+  [License](undefined)
 
   ## Contribution
-  Please follow these guidelines to offer contributions:
-  yada yada
+  Please follow these guidelines to offer contribution:  
+  blah
 
   ## Tests
-  I have written the following test for this application:
-  yada yada
+  I have written the following test(s) for this application:  
+  blah
 
   ## Questions
-  If issues arise, please reach me at the contact information below:
-  yada yada
-  yada yada
+  If issues arise, please reach me at the contact information below:  
+  **GitHub**:  blah
+  **Email**:  blah

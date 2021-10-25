@@ -10,16 +10,22 @@
 - [Criteria](#acceptance-criteria)
 - [Collaboration](#collaboration)
 
+<br />
+
 ## Description
 
-1. **Purpose**: To create a comprehensive README.md file, per user inputs.
+1. **Purpose**: To create a comprehensive markdown file, per user inputs.
 2. **Motivation**: Leaves more time to focus on writing code.
-3. **Problem solved**: Saves time and eliminates guesswork in README.md composition.
+3. **Problem solved**: Saves time and eliminates guesswork in markdown composition.
 4. **What I learned**: How to create and run Node applications.
+
+<br />
 
 ## Installation
 
 App is invoked by first running 'npm install', then typing 'node index' in the command line.
+
+<br />
 
 ## Usage
 
@@ -29,16 +35,22 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project.
 ```
 
+<br />
+
 ## License
 
 ISC License  
-Copyright (c) [2021] [David Dyer]  
+Copyright (c) David Dyer [2021]  
 [license](./license.txt)
+
+<br />
 
 ## Screenshots Demo
 
 - Link to Screencastify demo video demonstrating functionality.
 - Sample README.md
+
+<br />
 
 ## Acceptance Criteria
 
@@ -72,6 +84,12 @@ When clicking links in table of contents, user is directed to corresponding sect
 
 ## Collaboration
 
-Credit collaborators by linking GitHub profiles.  
-**Reporting issues**: Contact @djdyer to report bugs.  
-**Contributions**: Clone branch, submit pull request after completing improvements.
+Jedi Master: **Chris Champness**
+
+[![](https://avatars.githubusercontent.com/u/87551272?v=4?width=220&button=false)](https://github.com/CChampness)
+
+**Reporting issues**:  
+Contact @djdyer to report bugs.
+
+**Contributions**:  
+Clone branch, submit pull request for review after completing any improvements.

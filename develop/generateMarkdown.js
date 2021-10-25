@@ -1,6 +1,5 @@
 // Returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
-  console.log(3, license);
   if (license === "Apache") {
     return "![Apache](/assets/apache.svg)";
   } else if (license === "GNU") {
@@ -14,19 +13,32 @@ function renderLicenseBadge(license) {
 
 // Returns the license link
 function renderLicenseLink(license) {
-  // const licenseLink = "https:";
-  // const licenseApache = "https://choosealicense.com/licenses/apache-2.0";
-  // const licenseGNU = "https://choosealicense.com/licenses/gpl-3.0";
-  // const licenseMIT = "https://choosealicense.com/licenses/mit";
-  // const license = "https://choosealicense.com/licenses/isc";
+  console.log(license);
+  var licenseLink = "";
+  if (license === "Apache") {
+    licenseLink = "https://choosealicense.com/licenses/apache-2.0";
+    console.log(licenseLink);
+    return generateMarkdown(licenseLink);
+  } else if (license === "GNU") {
+    licenseLink = "https://choosealicense.com/licenses/gpl-3.0";
+    console.log(licenseLink);
+    return generateMarkdown(licenseLink);
+  } else if (license === "MIT") {
+    licenseLink = "https://choosealicense.com/licenses/mit";
+    console.log(licenseLink);
+    return generateMarkdown(licenseLink);
+  } else {
+    licenseLink = "https://choosealicense.com/licenses/isc";
+    console.log(licenseLink);
+    return generateMarkdown(licenseLink);
+  }
 }
 
 // Returns the license section of README
-function renderLicenseSection(license) {}
+function renderLicenseSection() {}
 
 // Generates markdown for README
-function generateMarkdown(answers) {
-  console.log(answers);
+function generateMarkdown(answers, licenseLink) {
   const badge = renderLicenseBadge(answers.license);
   return `# ${answers.title}
   
@@ -51,20 +63,22 @@ function generateMarkdown(answers) {
   ${answers.usage}
   
   ## License
-
+  ${answers.license}
+  Copyright (c) ${answers.name} [${new Date().getFullYear()}]  
+  [License](${licenseLink})
 
   ## Contribution
-  Please follow these guidelines to offer contributions:
+  Please follow these guidelines to offer contribution:  
   ${answers.contribution}
 
   ## Tests
-  I have written the following test for this application:
+  I have written the following test(s) for this application:  
   ${answers.tests}
 
   ## Questions
-  If issues arise, please reach me at the contact information below:
-  ${answers.github}
-  ${answers.email}
+  If issues arise, please reach me at the contact information below:  
+  **GitHub**:  ${answers.github}
+  **Email**:  ${answers.email}
 `;
 }
 

@@ -9,7 +9,12 @@ const markdownFunctions = require("./generateMarkdown");
 const questionsArr = [
   {
     type: "input",
-    message: "What is the name of your project? (Capslock suggested)",
+    message: "What is your name?",
+    name: "name",
+  },
+  {
+    type: "input",
+    message: "What is the name of your project?",
     name: "title",
   },
   {
@@ -66,9 +71,8 @@ function init() {
     console.log(answers);
     const readMe = markdownFunctions.generateMarkdown(answers);
     markdownFunctions.renderLicenseBadge(answers.license);
-    // renderLicenseLink(answers);
-    // renderLicenseSection(answers);
-    console.log(readMe);
+    markdownFunctions.renderLicenseLink(answers.license);
+    markdownFunctions.renderLicenseSection(answers.license);
     fs.writeFile("README.md", readMe, function (err) {
       if (err) {
         console.log(err);
@@ -79,5 +83,3 @@ function init() {
 
 // Call to initialize app
 init();
-
-module.exports = init;
