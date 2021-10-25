@@ -49,7 +49,7 @@ Copyright (c) David Dyer [2021]
 
 ## Screenshots Demo
 
-<img src="assets/screenrecording.mov" width = "200">
+[![](assets/video_screenshot.png)](https://youtu.be/S7P_PQ7qJh0)
 
 <br />
 
@@ -76,8 +76,8 @@ User prompted for information about application repository:
 
 Inputs added to corresponding section titles for README.md.
 
-When choosing license from list of options, badge is added to top of README.md,
-notice added to license section explaining coverage.
+When choosing license from list of options, badge is added to README.md,
+notice added to license section linked to coverage.
 
 Entering GitHub user name adds profile link to questions section,
 with instructions for how to contact.
@@ -91,12 +91,18 @@ When clicking links in table of contents, user is directed to corresponding sect
 
 ## Collaboration
 
+Development efforts most often include guidance from  
 Jedi Master: **Chris Champness**
 
-[![](https://avatars.githubusercontent.com/u/87551272?v=4?width=220&button=false)](https://github.com/CChampness)
+[![](https://avatars.githubusercontent.com/u/87551272?v=4?width=100&button=false)](https://github.com/CChampness)
 
 **Reporting issues**:  
 Contact @djdyer to report bugs.
 
 **Contributions**:  
 Clone branch, submit pull request for review after completing any improvements.
+
+<br />
+
+Thanks for taking a look!  
+👋
