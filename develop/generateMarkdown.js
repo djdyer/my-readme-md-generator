@@ -30,6 +30,7 @@ function renderLicenseLink(license) {
 function generateMarkdown(answers, licenseLink) {
   const badge = renderLicenseBadge(answers.license);
   return `# ${answers.title}
+  
 
   ## Table of Contents
   - [Description](#description)
@@ -40,32 +41,39 @@ function generateMarkdown(answers, licenseLink) {
   - [Tests](#tests)
   - [Questions](#questions)
 
+
   ## Description
   ${answers.description}
+
 
   ## Installation
   ${answers.installation}
   
+
   ## Usage
   ${answers.usage}
   
+
   ## License
   ${answers.license}
   Copyright (c) ${answers.name} [${new Date().getFullYear()}]  
   [${badge}](${renderLicenseLink(answers.license)})
 
+
   ## Contribution
   Please follow these guidelines for collaboration:  
   ${answers.contribution}
+
 
   ## Tests
   I have written the following test(s) for this application:  
   ${answers.tests}
 
+
   ## Questions
   If issues arise, please reach me at the contact information below:  
-  **GitHub**:  ${answers.github}
-  **Email**:  ${answers.email}
+  [GitHub](https://www.github.com/${answers.github})
+  [Email](mailto:${answers.email})
 `;
 }
 
