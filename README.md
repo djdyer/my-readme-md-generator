@@ -97,7 +97,7 @@ Jedi Master: **Chris Champness**
 [![](https://avatars.githubusercontent.com/u/87551272?v=4?width=100&button=false)](https://github.com/CChampness)
 
 **Reporting issues**:  
-Contact @djdyer to report bugs.
+Contact my [GitHub](https://www.github.com/djdyer) to report bugs.
 
 **Contributions**:  
 Clone branch, submit pull request for review after completing any improvements.
